@@ -1,3 +1,9 @@
+/* Info to know
+min(number,number)
+- first number is in pt
+- second number is pt/4.8
+
+*/
 /*Google Fonts*/
 /*Press Start 2P*/ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 /*Overpass*/       @import url('https://fonts.googleapis.com/css2?family=Overpass&family=Press+Start+2P&display=swap');
@@ -33,15 +39,32 @@ body{
   font-size:min(48pt,10vw);
   padding-left:min(20px,4.16vw);
 }
+.logo{
+  width:min(120pt,25vw);
+  height:min(120pt,25vw);
+  margin-top:-.5em;
+}
 /*Other things*/
 hr{
-  color:red;
+  /*color:red; /*Displays right on firefox but wrong on chrome*/
+  height: 2px;
+  border: none;
+  background: red;
   margin:0;
 }
 .links{
   color:white;
-  font-family:'Beckman Heavy',sans-serif
+  font-family:'Beckman Heavy',sans-serif;
+  font-size:min(15pt,5vw);
+  line-height:min(30pt,10vw)
 }
 .links > span{
   color:red;
+}
+a{
+  color:white;
+  transition:.2s
+}
+a:hover{
+  color:#999999;
 }
