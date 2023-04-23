@@ -1,0 +1,34 @@
+/*Google Fonts*/
+/*Press Start 2P*/ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*Overpass*/       @import url('https://fonts.googleapis.com/css2?family=Overpass&family=Press+Start+2P&display=swap');
+/*Roboto Mono*/    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+/*Other fonts*/
+@font-face{
+  font-family:'Asgaard Base';
+  src: url('https://cdn.glitch.global/49e33c29-7598-4097-8641-ce504370cf7a/Asgaard-Base.ttf?v=168222');
+}
+@font-face{
+  font-family:'Beckman Heavy';
+  src: url('https://cdn.glitch.global/49e33c29-7598-4097-8641-ce504370cf7a/beckman-heavy.otf?v=1682220596874');
+}
+
+body{
+  background-color: #444444;
+  text-align:center;
+}
+/*Logo styling*/
+.wildcard{
+  font-family:'Asgaard Base' ,sans-serif;
+  margin-bottom:0;
+  margin-top:-.5em;
+  color:#f0252b;
+  -webkit-text-stroke: .2vw white; /*Displays different on chrome and firefox - fix with text-shadow*/
+  font-size:min(96pt,20vw);
+}
+.robotics{
+  font-family:'Beckman Heavy' ,sans-serif;
+  margin-top:0;
+  color:white;
+  font-size:min(48pt,10vw);
+  padding-left:min(20px,4.16vw);
+}
