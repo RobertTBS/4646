@@ -21,7 +21,7 @@ body{
   font-family:'Asgaard Base' ,serif;
   margin-bottom:0;
   margin-top:-.5em;
-  color:#f0252b;
+  color:red;
   -webkit-text-stroke: .2vw white; /*Displays different on chrome and firefox - fix with text-shadow*/
   font-size:min(96pt,20vw);
 }
@@ -35,7 +35,7 @@ body{
 }
 /*Other things*/
 hr{
-  color:#f0252b;
+  color:red;
   margin:0;
 }
 .links{
@@ -43,5 +43,5 @@ hr{
   font-family:'Beckman Heavy',sans-serif
 }
 .links > span{
-  color:#f0252b;
+  color:red;
 }
