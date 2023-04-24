@@ -44,6 +44,30 @@ body{
   height:min(120pt,25vw);
   margin-top:-.5em;
 }
+
+/*Small logo - divided by 3*/
+.SMwildcard{
+  font-family:'Asgaard Base' ,serif;
+  margin-bottom:0;
+  margin-top:-.5em;
+  color:red;
+  -webkit-text-stroke: .066vw white; /*Displays different on chrome and firefox - fix with text-shadow*/
+  font-size:min(32pt,6.66vw);
+}
+.SMrobotics{
+  font-family:'Beckman Heavy' ,sans-serif;
+  margin-top:0;
+  margin-bottom:0;
+  color:white;
+  font-size:min(16pt,3.33vw);
+  padding-left:min(6.66px,1.3866vw);
+}
+.SMlogo{
+  width:min(40pt,8.33vw);
+  height:min(40pt,8.33vw);
+  margin-top:-.5em;
+}
+
 /*Other things*/
 hr{
   /*color:red; /*Displays right on firefox but wrong on chrome*/
@@ -67,4 +91,13 @@ a{
 }
 a:hover{
   color:#999999;
+}
+.bottombox{
+  font-family:'Beckman Heavy',sans-serif;
+  color:white;
+  font-size:min(15pt,5vw);
+  display:flex;
+}
+@media (max-width: 750px)  {
+  .bottombox{display:none}
 }
