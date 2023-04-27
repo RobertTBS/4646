@@ -6,3 +6,4 @@ const min = document.getElementById("updatedMIN")
 const time = new Date(document.lastModified);
 change.innerHTML = time.getFullYear()+"<br>"+time.getMonth()+"-"+time.getDate();
 min.innerHTML = time.getHours()+"<br>"+time.getMinutes();
+console.log("You seem to be a curious guy! Maybe this is your sign to join robotics!");
